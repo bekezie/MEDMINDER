@@ -40,6 +40,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (userId, done) => {
+  // deserializing the user will allow us to access the fields in json in the req.user
   try {
     const user = await mediDB.getUserById(userId);
     if (user) {

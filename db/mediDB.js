@@ -248,6 +248,7 @@ const MediDBController = function () {
     }
   };
 
+  // delete a pharmacy contact
   mediDB.deletePharmContact = async (id) => {
     let client;
     try {

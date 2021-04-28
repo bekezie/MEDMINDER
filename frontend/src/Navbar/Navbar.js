@@ -19,7 +19,7 @@ const Navbar = function (props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          MediMind
+          MedMinder
         </Link>
         <button
           className="navbar-toggler"

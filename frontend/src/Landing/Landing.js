@@ -1,10 +1,11 @@
-import MedMinderLogo from "../Assests/MedMinderLogo.jpg";
-import AddMed2 from "../Assests/AddMed2.jpg";
-import EditMed2 from "../Assests/EditMed2.jpg";
-import WeeklyMeds2 from "../Assests/WeeklyMeds2.jpg";
+import MedMinderLogo from "../Assets/MedMinderLogo.jpg";
+import AddMed2 from "../Assets/AddMed2.jpg";
+import EditMed2 from "../Assets/EditMed2.jpg";
+import WeeklyMeds2 from "../Assets/WeeklyMeds2.jpg";
 import { Link } from "react-router-dom";
 import "../Landing/Landing.css";
 
+// the landing page component that serves static html. no database or backend calls here.
 const Landing = function () {
   return (
     <div className="landingContainer">
@@ -15,12 +16,18 @@ const Landing = function () {
         <div className="row mt-5">
           <div className="col"></div>
           <div className="col-7">
-            <br/><br/><br/><br/><br/><br/><br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <h1 className="h1">Virtual Prescription Organization</h1>
             <p className="p1">
-              Manage your medication with precision and ease by using MediMind.
+              Manage your medication with precision and ease by using MedMinder.
             </p>
-            <br/>
+            <br />
             <Link to="/register" className="signUpButton">
               <h3>Sign Up!</h3>
             </Link>
@@ -63,7 +70,9 @@ const Landing = function () {
               alt="Add medication screenshot"
             />
             <div className="card-body">
-              <h5 className="card-title landing-card-title">Add medication</h5>
+              <h5 className="landing-card-title" text-align="center">
+                Add medication
+              </h5>
               <p className="card-text landing-card-text">
                 Input the name of your medication information.
               </p>
@@ -76,7 +85,9 @@ const Landing = function () {
               alt="Edit medication screenshot"
             />
             <div className="card-body">
-              <h5 className="card-title landing-card-title">Edit medication</h5>
+              <h5 className="landing-card-title" text-align="center">
+                Edit medication
+              </h5>
               <p className="card-text landing-card-text">
                 Make changes to your medications.
               </p>
@@ -89,7 +100,9 @@ const Landing = function () {
               alt="Weekly medication screenshot"
             />
             <div className="card-body">
-              <h5 className="card-title landing-card-title">Get info</h5>
+              <h5 className="landing-card-title" text-align="center">
+                Get info
+              </h5>
               <p className="card-text landing-card-text landing-card-title">
                 Check out your daily medications from the dashboard.
               </p>
@@ -98,10 +111,12 @@ const Landing = function () {
         </div>
       </div>
       <div className="container" style={{ background: "#ffd230" }}>
-        <br/><br/><br/><br/><br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
-
-     
     </div>
   );
 };

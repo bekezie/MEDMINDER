@@ -41,6 +41,7 @@ const NewMedicineForm = (props) => {
     2: true,
   });
 
+  // create a medication instance and pass it to the database
   const newMedicineSubmitted = async (event) => {
     event.preventDefault();
     const result = await fetch("/medicineData/create", {
@@ -76,15 +77,17 @@ const NewMedicineForm = (props) => {
   };
   return (
     <div className="container">
-      <div className="row" id="row-size">
-        <div className="col-7" id="center">
+      <div className="row">
+        <div className="col-7">
           <form
             className="form-inline"
             ref={medicationForm}
             onSubmit={newMedicineSubmitted}
           >
-            <p className="h2-font" text-align="center">Add a new medication</p>
-           
+            <p className="h2-font" text-align="center">
+              Add a new medication
+            </p>
+
             <div>
               <div className="mb-1">
                 <label className="form-label">Medication Name</label>
@@ -151,7 +154,7 @@ const NewMedicineForm = (props) => {
                   <label className="form-check-label">Evening</label>
                 </div>
               </div>
-              <div className="mb-2" >
+              <div className="mb-2">
                 <div className="form-check form-check-inline">
                   <input
                     className="form-check-input"
