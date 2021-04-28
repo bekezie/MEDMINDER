@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Poppins:wght@200&family=Questrial&display=swap");
+
+.medsContainer {
+    background-color: #ebecf0;    
+    height: 100%;
+}
+
+.h1-font {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50px;
+
+}
+
+.h2-font {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+
+.form-label {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+    font-size: 20px;
+}
+
+.form-check-label {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+    font-size: 12px;
+    font-weight: 30px;
+    
+}
+
+
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 50px;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.card-text {
+    text-align: center;
+    color: #302f2d;
+    font-family: 'Questrial', sans-serif;
+}
+
+.card-title {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+
+}
+
+#button {
+    background-color: #a359a0; 
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+    
+}
+#button:visited {
+    background: white; 
+}
+
+#center {
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+#row-size {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.resize-card-heading {
+    color: #302f2d;
+    font-size: 20px;
+    font-weight: 35px;
+}
+
+#resize-card-text {
+    font-family: "Questrial", sans-serif;
+    color: #302f2d;
+    font-size: 16px;
+    font-weight: 30px;
+}
+

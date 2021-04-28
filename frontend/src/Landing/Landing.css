@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Poppins:wght@200&family=Questrial&display=swap");
+
+.landingContainer {
+  background-color: #ffd230;
+}
+.h1 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  font-weight: bold;
+  font-size: 41.5px;
+  text-align: left;
+}
+.h2 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  /* background-color: #ffd230; */
+  height: 100%;
+}
+.h1 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  font-weight: bold;
+  font-size: 41.5px;
+  text-align: left;
+}
+.h2 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+}
+
+.p1 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #63615d;
+  font-weight: 80;
+  font-size: 30px;
+  text-align: left;
+  line-height: 1.2;
+}
+.p2 {
+  letter-spacing: 2px;
+  font-family: "Questrial", sans-serif;
+  color: #63615d;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.p3 {
+  letter-spacing: 2px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  /* color:#413f3b; */
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.signUpButton {
+  background-color: #a849a0;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 12px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Questrial", sans-serif;
+}
+.h3 {
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  font-weight: 38;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+.resize {
+  height: 500px;
+  width: 500px;
+}
+
+.landing-card {
+  margin-left: 40px;
+  margin-right: 40px;
+  background: none;
+  border: none;
+}
+
+.landing-card-title {
+  letter-spacing: 2px;
+  font-family: "Questrial", sans-serif;
+  color: #302f2d;
+  /* color:#413f3b; */
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-img-top .rounded {
+  background: none;
+}
+
+.landing-card-text {
+  letter-spacing: 2px;
+  font-family: "Questrial", sans-serif;
+  color: #63615d;
+  /* color:#413f3b; */
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 80;
+}
